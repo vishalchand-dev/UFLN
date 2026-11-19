@@ -1,19 +1,19 @@
-# Data
+﻿# Released result data
 
-This directory documents the data used by the UFLN manuscript.
+This directory contains the curated result tables released with the UFLN benchmark manuscript.
 
-Large raw outputs and trace archives are **not committed directly to Git**.
+## Primary evaluation
 
-Planned publication data include:
+primary/Results_Raw.csv
 
-- primary evaluation results;
-- sensitivity results;
-- map/corpus definitions;
-- calibration records where required for reproducibility;
-- experiment schedules;
-- supporting-information tables/CSVs; and
-- retained trace files described in the manuscript.
+Contains the frozen primary evaluation and dedicated deterministic timing records used by the study.
 
-See `../docs/DATA_DICTIONARY.md` and `../docs/REPRODUCIBILITY.md`.
+## Sensitivity evaluation
 
-No final archival data release has been declared yet.
+sensitivity/Sensitivity_Raw.csv
+
+Contains the frozen sensitivity-condition records used by the study.
+
+Large retained trace files are not committed to normal Git history.
+
+The CSV files in this repository should be treated as frozen scientific records. Do not edit them manually.

@@ -1,0 +1,4 @@
+Evaluation geometry summary
+easy: n=30, score median=0.067, path_ratio median=1.000, clearance median=1.931, area_ratio median=0.047
+medium: n=30, score median=0.207, path_ratio median=1.031, clearance median=1.284, area_ratio median=0.081
+hard: n=30, score median=0.485, path_ratio median=1.172, clearance median=0.618, area_ratio median=0.119

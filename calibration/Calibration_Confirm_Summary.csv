@@ -1,0 +1,13 @@
+planner,candidate_id,n_confirm_design,success_rate,median_reference_route_ratio,median_proposer_time_s,selected,selection_rule
+ACO,2,150,0.893333333333333,0.995624262494965,8.3369079,1,success first; 0.5% reference-route equivalence; proposer time
+ACO,4,150,0.886666666666667,0.995507546470756,5.9678812,0,
+BA,2,150,0.873333333333333,0.995550029051351,5.7545079,0,
+BA,4,150,0.88,0.99556060184503,5.79099625,1,success first; 0.5% reference-route equivalence; proposer time
+FA,4,150,0.793333333333333,1.01522210220689,6.2077907,0,
+FA,2,150,0.82,1.0099263524009,5.7704213,1,success first; 0.5% reference-route equivalence; proposer time
+SAFA,2,150,0.853333333333333,0.995699554418892,5.8067037,1,success first; 0.5% reference-route equivalence; proposer time
+SAFA,1,150,0.826666666666667,0.996605598289264,6.08805985,0,
+RRT,4,150,0.993333333333333,0.992956219489326,1.5479049,1,success first; 0.5% reference-route equivalence; proposer time
+RRT,3,150,0.98,0.992956219489343,1.4896699,0,
+DVWP,2,15,0.733333333333333,0.996391767325369,0.002736,0,
+DVWP,4,15,0.733333333333333,0.996342536004347,0.0026968,1,success first; 0.5% reference-route equivalence; proposer time

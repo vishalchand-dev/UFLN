@@ -1,0 +1,13 @@
+Captured: 09-Oct-2026 07:10:52
+UFLN package: UFLN_1.0_V2_2_1_candidate
+MATLAB: 26.1.0.3312084 (R2026a) Update 4
+Computer: PCWIN64
+MATLAB numcores: 10
+OS: Microsoft Windows 11 Enterprise | 10.0.26200
+CPU: Intel(R) Core(TM) 7 150U
+RAM_GB: 31.69
+Toolbox: Computer Vision Toolbox | 26.1
+Toolbox: Image Processing Toolbox | 26.1
+Toolbox: MATLAB | 26.1
+Toolbox: Robotics System Toolbox | 26.1
+Toolbox: Signal Processing Toolbox | 26.1

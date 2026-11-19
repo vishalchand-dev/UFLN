@@ -1,0 +1,9 @@
+condition_id,fov_full_deg,sensor_range,landmark_mode,safety_margin
+BASE,120,15,med,0.2
+FOV90,90,15,med,0.2
+FOV150,150,15,med,0.2
+RANGE12,120,12,med,0.2
+RANGE18,120,18,med,0.2
+LM_LOW,120,15,low,0.2
+LM_HIGH,120,15,high,0.2
+SAFE30,120,15,med,0.3

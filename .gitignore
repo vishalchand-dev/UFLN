@@ -1,4 +1,4 @@
-# MATLAB
+﻿# MATLAB
 *.asv
 *.m~
 slprj/
@@ -31,3 +31,28 @@ raw_traces/
 # Local machine / IDE configuration
 .vscode/
 .idea/
+# Private statistical-analysis workspace
+*.R
+*.Rmd
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python generated cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large experiment traces
+Traces/
+traces/
+raw_traces/
+*.mat
+
+# Local staging/review material
+review_reports/
+STAGING_*.csv
+STAGING_*.txt
+CANDIDATE_*.csv

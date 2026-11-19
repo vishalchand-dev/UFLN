@@ -1,0 +1,4 @@
+Calibration geometry summary
+easy: n=5, score median=0.069, path_ratio median=1.000, clearance median=2.124, area_ratio median=0.053
+medium: n=5, score median=0.126, path_ratio median=1.025, clearance median=1.741, area_ratio median=0.081
+hard: n=5, score median=0.491, path_ratio median=1.195, clearance median=0.699, area_ratio median=0.126

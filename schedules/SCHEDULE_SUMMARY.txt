@@ -1,0 +1,7 @@
+Main path records: 13860
+Stochastic main path records: 13500
+Deterministic main path records: 360
+Main deterministic timing records: 3600
+Diagnostic path records: 810
+Diagnostic timing records: 300
+Sensitivity maps: 18
