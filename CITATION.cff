@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use UFLN, please cite the associated manuscript and the frozen release corresponding to it."
+title: "UFLN: A Controlled Landmark-Visibility Benchmark for Robot Navigation"
+type: software
+authors:
+  - family-names: Chand
+    given-names: Vishal Raveekesh
+  - family-names: Chaudhary
+    given-names: Kaylash
+  - family-names: Prasad
+    given-names: Avinesh
+  - family-names: Kumar
+    given-names: Sandeep Ameet
+  - family-names: Sharma
+    given-names: Bibhya
+repository-code: "https://github.com/vishalchand-dev/UFLN"
+version: "0.1.0-dev"
