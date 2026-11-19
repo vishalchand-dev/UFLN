@@ -35,6 +35,7 @@ The current study evaluates nine waypoint-generation methods:
 ## Repository layout
 
 - `matlab/` — benchmark and experiment code
+- `analysis/` — publication-facing R statistical-analysis scripts
 - `protocol/` — frozen benchmark protocol material
 - `corpus/` — evaluation/corpus definitions
 - `calibration/` — calibration records
@@ -54,7 +55,7 @@ The publication-facing repository is intended to provide:
 5. protocol and reproducibility records; and
 6. integrity/checksum information for the frozen experiment.
 
-Statistical-analysis source scripts are not included in this GitHub repository.
+Publication-facing statistical-analysis scripts are provided in `analysis/`. Exploratory/private analysis workspaces remain excluded.
 
 Large trace archives and other bulky outputs are not stored directly in normal Git history.
 
