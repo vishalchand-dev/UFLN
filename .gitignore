@@ -6,11 +6,19 @@ codegen/
 *.mex*
 *.autosave
 
-# R / RStudio
+# Private statistical-analysis workspace
+*.R
+*.Rmd
+*.Rproj
 .Rhistory
 .RData
 .Ruserdata
 .Rproj.user/
+
+# Python generated cache
+__pycache__/
+*.pyc
+*.pyo
 
 # OS/editor
 .DS_Store
@@ -18,16 +26,22 @@ Thumbs.db
 desktop.ini
 ~$*
 *.tmp
+.vscode/
+.idea/
 
-# Local archives and large raw experiment outputs
+# Local archives and large experiment outputs
 *.rar
 *.7z
 *.zip
+*.mat
 data/raw/
 results/raw/
+Traces/
 traces/
 raw_traces/
 
-# Local machine / IDE configuration
-.vscode/
-.idea/
+# Local staging/review material
+review_reports/
+STAGING_*.csv
+STAGING_*.txt
+CANDIDATE_*.csv

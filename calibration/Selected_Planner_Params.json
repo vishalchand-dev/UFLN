@@ -1,0 +1,26 @@
+{
+  "ACO": {
+    "q": 0.35,
+    "sigma_frac": 0.3
+  },
+  "BA": {
+    "loudness": 0.9,
+    "pulse": 0.55
+  },
+  "FA": {
+    "gamma": 0.5,
+    "alpha0": 0.25
+  },
+  "SAFA": {
+    "gamma": 0.5,
+    "drift_frac": 0.2
+  },
+  "RRT": {
+    "step": 0.9,
+    "goal_bias": 0.2
+  },
+  "DVWP": {
+    "k_rep": 0.9,
+    "d0": 6
+  }
+}

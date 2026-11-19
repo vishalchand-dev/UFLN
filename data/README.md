@@ -1,19 +1,27 @@
-# Data
+# Released result data
 
-This directory documents the data used by the UFLN manuscript.
+This directory contains the curated result tables released with the UFLN benchmark manuscript.
 
-Large raw outputs and trace archives are **not committed directly to Git**.
+## Primary evaluation
 
-Planned publication data include:
+`primary/Results_Raw.csv`
 
-- primary evaluation results;
-- sensitivity results;
-- map/corpus definitions;
-- calibration records where required for reproducibility;
-- experiment schedules;
-- supporting-information tables/CSVs; and
-- retained trace files described in the manuscript.
+The file contains 18,270 records:
 
-See `../docs/DATA_DICTIONARY.md` and `../docs/REPRODUCIBILITY.md`.
+- 13,860 `MAIN/PATH` records used for the primary planner evaluation;
+- 3,600 `MAIN/TIMING` records from the dedicated deterministic timing experiment; and
+- 810 `DIAGNOSTIC/PATH` records retained as diagnostic cases and excluded from the primary inferential evaluation.
 
-No final archival data release has been declared yet.
+## Sensitivity evaluation
+
+`sensitivity/Sensitivity_Raw.csv`
+
+The file contains 7,776 `SENSITIVITY/PATH` records across eight conditions, with 972 records per condition.
+
+## Notes
+
+Large retained trace files are not committed to normal Git history.
+
+The CSV files in this repository are frozen scientific records and should not be edited manually.
+
+Field definitions are provided in `../docs/DATA_DICTIONARY.md`.

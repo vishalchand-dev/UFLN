@@ -1,0 +1,9 @@
+UFLN V2.2 static package check
+===============================
+PASS
+Function/file names consistent.
+All referenced Paper1_V22 functions present.
+Corpus counts and versions correct.
+Schedule counts/record keys correct.
+All maps carry landmark-chain validation metadata.
+Note: MATLAB runtime validation is still required on the target laptop.
