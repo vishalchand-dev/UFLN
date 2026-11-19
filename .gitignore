@@ -41,6 +41,7 @@ raw_traces/
 
 # Generated analysis outputs
 analysis/output/
+analysis_outputs/
 
 # Local staging/review material
 review_reports/
