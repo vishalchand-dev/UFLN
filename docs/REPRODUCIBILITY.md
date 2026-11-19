@@ -2,28 +2,13 @@
 
 ## Purpose
 
-This document records how the UFLN paper can be reproduced from the frozen code, data, and analysis scripts.
+This document records the materials provided with the UFLN benchmark and paper-facing repository.
 
 The repository is currently under coauthor review. Paths, commands, checksums, and archival links will be completed before the publication release is frozen.
 
-## Reproduction levels
+## Experiment reproduction
 
-### A. Analysis reproduction
-
-The final package should allow a researcher to start from the released primary and sensitivity result files and reproduce:
-
-- reliability summaries and uncertainty intervals;
-- successful-run quality analyses;
-- deterministic timing analyses;
-- sensitivity analyses;
-- manuscript tables; and
-- manuscript figures derived from those analyses.
-
-Final statistical scripts will be stored in `r/`.
-
-### B. Experiment reproduction
-
-The final package should also document how to run the MATLAB benchmark and reproduce the experimental workflow, including:
+The publication-facing repository is intended to document how to run the MATLAB benchmark and reproduce the frozen experimental workflow, including:
 
 - corpus/map loading or generation;
 - the nine waypoint-generation methods;
@@ -33,6 +18,12 @@ The final package should also document how to run the MATLAB benchmark and repro
 - sensitivity schedules; and
 - result/trace logging.
 
+## Released result data
+
+The repository may include curated primary and sensitivity result tables required to inspect the reported outcomes. Large trace collections are kept outside normal Git history.
+
+Statistical-analysis source scripts are **not included in this GitHub repository**. The manuscript records the statistical procedures and software environment used for the reported analyses.
+
 ## Frozen study environment
 
 - Benchmark version: UFLN V2.2.1
@@ -41,34 +32,25 @@ The final package should also document how to run the MATLAB benchmark and repro
 - Operating system: Windows 11 Enterprise
 - Hardware: Dell Pro 14 PC14250, Intel Core 7 150U, 32 GB RAM
 
-Exact MATLAB toolbox versions and the final R `sessionInfo()` will be added before release.
+Exact MATLAB toolbox information will be added before release.
 
-## Statistical reproducibility
+## Integrity and provenance
 
-The final R scripts should:
-
-- use the evaluation map as the primary independent unit;
-- preserve the manuscript's stochastic-within-map reductions;
-- use fixed random seeds for bootstrap and Monte Carlo procedures;
-- state all resample/sign-flip counts explicitly; and
-- reproduce the manuscript numbers from the released data.
+The final release will retain the frozen experiment configuration, validation records, schedules, and SHA-256 integrity information needed to identify the code/data corresponding to the manuscript.
 
 ## Large files
 
-Large trace archives and other bulky outputs are intentionally not committed directly to Git. The frozen publication release will provide a persistent location and SHA-256 checksums for those files.
+Large trace archives and other bulky outputs are intentionally not committed directly to Git. Their publication/archive strategy will be decided before final journal submission.
 
 ## Release checklist
 
 - [ ] MATLAB source curated
-- [ ] R scripts frozen
-- [ ] Random seeds fixed
-- [ ] R session information saved
 - [ ] MATLAB/toolbox versions recorded
 - [ ] Raw primary results documented
 - [ ] Sensitivity results documented
 - [ ] Map/corpus files documented
-- [ ] Supporting-information CSV files complete
-- [ ] Large trace archive location recorded
+- [ ] Supporting-information data complete
+- [ ] Large trace archive strategy decided
 - [ ] SHA-256 manifest generated
 - [ ] Code/data licence agreed by all authors
 - [ ] Repository release tagged
