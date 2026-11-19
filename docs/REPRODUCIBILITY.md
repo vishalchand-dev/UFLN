@@ -2,27 +2,34 @@
 
 ## Purpose
 
-This document records the materials provided with the UFLN benchmark and paper-facing repository.
+This document describes the materials provided with the UFLN benchmark and paper-facing repository.
 
-The repository is currently under coauthor review. Paths, commands, checksums, and archival links will be completed before the publication release is frozen.
+The repository is currently under coauthor review and should not yet be treated as the final archival release.
 
 ## Experiment reproduction
 
-The publication-facing repository is intended to document how to run the MATLAB benchmark and reproduce the frozen experimental workflow, including:
+The repository documents the frozen MATLAB benchmark workflow, including:
 
-- corpus/map loading or generation;
+- corpus/map loading and generation;
 - the nine waypoint-generation methods;
-- shared visibility, selection, safety, recovery, and control logic;
+- shared visibility, landmark selection, safety, recovery, and control logic;
 - primary evaluation schedules;
 - deterministic timing schedules;
 - sensitivity schedules; and
 - result/trace logging.
 
+The frozen pre-analysis document is retained at `protocol/Statistical_Analysis_Plan_V2_2.md`. It records the analysis options considered before final manuscript analysis. The manuscript reports the final analyses actually used.
+
 ## Released result data
 
-The repository may include curated primary and sensitivity result tables required to inspect the reported outcomes. Large trace collections are kept outside normal Git history.
+The repository includes:
 
-Statistical-analysis source scripts are **not included in this GitHub repository**. The manuscript records the statistical procedures and software environment used for the reported analyses.
+- `data/primary/Results_Raw.csv`: 18,270 records, including the 13,860 primary MAIN/PATH records, 3,600 MAIN/TIMING records, and 810 diagnostic path records.
+- `data/sensitivity/Sensitivity_Raw.csv`: 7,776 sensitivity records across eight conditions.
+
+See `docs/DATA_DICTIONARY.md` for field definitions.
+
+Statistical-analysis source scripts are not included in this GitHub repository. The manuscript records the statistical procedures and software environment used for the reported analyses.
 
 ## Frozen study environment
 
@@ -32,26 +39,31 @@ Statistical-analysis source scripts are **not included in this GitHub repository
 - Operating system: Windows 11 Enterprise
 - Hardware: Dell Pro 14 PC14250, Intel Core 7 150U, 32 GB RAM
 
-Exact MATLAB toolbox information will be added before release.
+Exact MATLAB toolbox information should be treated according to the captured environment record in `reproducibility/Environment_Captured.txt`.
 
 ## Integrity and provenance
 
-The final release will retain the frozen experiment configuration, validation records, schedules, and SHA-256 integrity information needed to identify the code/data corresponding to the manuscript.
+`reproducibility/SHA256_Frozen_Files.csv` is the hash manifest produced for the original frozen experiment package before the GitHub-facing directory reorganisation. Its stored relative paths therefore use the original package layout (for example, `01_Protocol`, `02_Source_Code`, and `03_Corpus`).
+
+The manifest is retained as provenance for the frozen experiment. It is not a directly runnable checksum manifest for the reorganised GitHub directory tree.
+
+The PASS/freeze text records in `reproducibility/` are likewise retained as historical validation records from the frozen experiment package.
 
 ## Large files
 
-Large trace archives and other bulky outputs are intentionally not committed directly to Git. Their publication/archive strategy will be decided before final journal submission.
+Large retained trace archives are intentionally not committed to normal Git history. Their long-term archive strategy will be decided before final journal submission.
 
 ## Release checklist
 
-- [ ] MATLAB source curated
-- [ ] MATLAB/toolbox versions recorded
-- [ ] Raw primary results documented
-- [ ] Sensitivity results documented
-- [ ] Map/corpus files documented
-- [ ] Supporting-information data complete
+- [x] MATLAB source curated
+- [x] Primary result data included
+- [x] Sensitivity result data included
+- [x] Map/corpus files included
+- [x] Experiment schedules included
+- [x] Original frozen-package SHA-256 manifest retained
+- [ ] MATLAB/toolbox information finalised for publication
+- [ ] Supporting-information package finalised
 - [ ] Large trace archive strategy decided
-- [ ] SHA-256 manifest generated
 - [ ] Code/data licence agreed by all authors
 - [ ] Repository release tagged
 - [ ] Persistent archive/identifier added if required for publication
