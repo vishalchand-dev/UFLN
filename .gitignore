@@ -1,4 +1,4 @@
-﻿# MATLAB
+# MATLAB
 *.asv
 *.m~
 slprj/
@@ -6,31 +6,6 @@ codegen/
 *.mex*
 *.autosave
 
-# R / RStudio
-.Rhistory
-.RData
-.Ruserdata
-.Rproj.user/
-
-# OS/editor
-.DS_Store
-Thumbs.db
-desktop.ini
-~$*
-*.tmp
-
-# Local archives and large raw experiment outputs
-*.rar
-*.7z
-*.zip
-data/raw/
-results/raw/
-traces/
-raw_traces/
-
-# Local machine / IDE configuration
-.vscode/
-.idea/
 # Private statistical-analysis workspace
 *.R
 *.Rmd
@@ -45,11 +20,25 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Large experiment traces
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+.vscode/
+.idea/
+
+# Local archives and large experiment outputs
+*.rar
+*.7z
+*.zip
+*.mat
+data/raw/
+results/raw/
 Traces/
 traces/
 raw_traces/
-*.mat
 
 # Local staging/review material
 review_reports/
