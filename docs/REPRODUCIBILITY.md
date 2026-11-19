@@ -29,7 +29,7 @@ The repository includes:
 
 See `docs/DATA_DICTIONARY.md` for field definitions.
 
-Publication-facing statistical-analysis scripts are included in `analysis/`. They operate on the released CSV tables and implement map-level summaries, stratified bootstrap uncertainty, paired planner effects, sensitivity comparisons, and manuscript-facing tables/figures. Exploratory/private analysis workspaces remain excluded.
+Publication-facing statistical-analysis scripts are included in `analysis/`. They operate on the released CSV tables and reproduce the manuscript's four validated analysis phases: map-level reliability inference, successful-run quality analysis, deterministic timing analysis, and sensitivity analysis. The scripts preserve the documented bootstrap, Monte Carlo sign-flip, Friedman, Wilcoxon, Holm-correction, and within-planner-map reduction procedures. Exploratory/private analysis workspaces remain excluded.
 
 ## Frozen study environment
 
