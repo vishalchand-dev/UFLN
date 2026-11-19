@@ -29,7 +29,7 @@ The repository includes:
 
 See `docs/DATA_DICTIONARY.md` for field definitions.
 
-Statistical-analysis source scripts are not included in this GitHub repository. The manuscript records the statistical procedures and software environment used for the reported analyses.
+Publication-facing statistical-analysis scripts are included in `analysis/`. They operate on the released CSV tables and implement map-level summaries, stratified bootstrap uncertainty, paired planner effects, sensitivity comparisons, and manuscript-facing tables/figures. Exploratory/private analysis workspaces remain excluded.
 
 ## Frozen study environment
 
@@ -56,6 +56,7 @@ Large retained trace archives are intentionally not committed to normal Git hist
 ## Release checklist
 
 - [x] MATLAB source curated
+- [x] Publication-facing R analysis scripts included
 - [x] Primary result data included
 - [x] Sensitivity result data included
 - [x] Map/corpus files included
