@@ -35,25 +35,28 @@ The current study evaluates nine waypoint-generation methods:
 ## Repository layout
 
 - `matlab/` — benchmark and experiment code
-- `r/` — statistical analysis scripts used to reproduce reported analyses
-- `configs/` — frozen experiment configuration and parameter records
-- `data/` — data documentation and small shareable examples; large raw outputs are not stored directly in Git
-- `docs/` — reproducibility, experiment-design, and data-dictionary documentation
-- `figures/` — figure-generation material intended for the paper
+- `protocol/` — frozen benchmark protocol material
+- `corpus/` — evaluation/corpus definitions
+- `calibration/` — calibration records
+- `schedules/` — experiment schedules
+- `data/` — curated result data and documentation
+- `reproducibility/` — environment, freeze, validation, and integrity records
+- `examples/` — selected illustrative material
 
 ## Reproducibility
 
-The final public reproducibility package is intended to provide:
+The publication-facing repository is intended to provide:
 
 1. the frozen benchmark implementation;
 2. experiment configuration and schedules;
 3. map/corpus information;
-4. primary and sensitivity results;
-5. final R analysis scripts;
-6. information required to reproduce tables and figures; and
-7. integrity/checksum information for archived large files.
+4. primary and sensitivity result data;
+5. protocol and reproducibility records; and
+6. integrity/checksum information for the frozen experiment.
 
-Large raw results and trace archives may be hosted outside the Git repository and linked here when the publication package is frozen.
+Statistical-analysis source scripts are not included in this GitHub repository.
+
+Large trace archives and other bulky outputs are not stored directly in normal Git history.
 
 See [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md).
 
@@ -65,11 +68,11 @@ Current manuscript environment:
 - R 4.6.2
 - Windows 11 Enterprise
 
-Exact toolbox/package information will be frozen with the final release.
+Exact MATLAB toolbox information will be frozen with the final release.
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. A permanent archival identifier will be added when the publication release is frozen.
+Citation metadata are provided in `CITATION.cff`. A permanent archival identifier may be added when the publication release is frozen.
 
 ## Licence
 
