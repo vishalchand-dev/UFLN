@@ -6,8 +6,7 @@ codegen/
 *.mex*
 *.autosave
 
-# Private statistical-analysis workspace
-*.R
+# Private/local R workspace
 *.Rmd
 *.Rproj
 .Rhistory
@@ -39,6 +38,9 @@ results/raw/
 Traces/
 traces/
 raw_traces/
+
+# Generated analysis outputs
+analysis/output/
 
 # Local staging/review material
 review_reports/
